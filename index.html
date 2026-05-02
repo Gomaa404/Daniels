@@ -2,676 +2,265 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="portfolio-page" />
-    <meta name="keywords" content="portfolio" />
+    <meta name="description" content="Jerry Daniels — UI/UX Designer & Web Developer Portfolio" />
+    <meta name="keywords" content="portfolio, designer, developer, UI UX, web design" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daniels</title>
+    <title>Daniels — Creative Designer & Developer</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-
-    <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- font awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/all.min.css" />
-    <!-- bootstrap file.css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- main.css -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- media.css -->
-    <link rel="stylesheet" href="css/media.css" />
   </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#h" tabindex="0">
-    <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top text-white" id="#h">
-      <div class="container px-lg-5 py-2">
-        <h2 class="py-1">
-          <a class="navbar-brand fs-5 text-uppercase fw-bolder logo py-3 ps-0 ps-md-5 mx-2" href="#"
-            >Daniels</a
-          >
-        </h2>
-        <button class="d-md-none bg-transparent border border-0" type="button">
-          <i class="fa-solid fa-bars text-white fa-xl"></i>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav" tabindex="0">
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#Home">Daniels</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
         </button>
-        <div
-          class="collapse d-none d-md-flex justify-content-between align-items-center"
-          id="navbarSupportedContent"
-        >
-          <ul class="d-md-flex ms-auto mb-2 mb-lg-0 px-lg-5 py-1">
-            <li class="nav-item px-3 px-lg-4">
-              <a class="nav-link p-0 position-relative" href="#Home">Home</a>
-            </li>
-            <li class="nav-item px-3 px-lg-4">
-              <a class="nav-link p-0 position-relative" href="#About">About</a>
-            </li>
-            <li class="nav-item px-3 px-lg-4">
-              <a class="nav-link p-0 position-relative" href="#Services">Services</a>
-            </li>
-            <li class="nav-item px-3 px-lg-4">
-              <a class="nav-link p-0 position-relative" href="#Works">Works</a>
-            </li>
-            <li class="nav-item px-3 px-lg-4">
-              <a class="nav-link p-0 position-relative" href="#Clients">Clients</a>
-            </li>
-            <li class="nav-item px-3 px-lg-4">
-              <a class="nav-link p-0 position-relative" href="#Team">Team</a>
-            </li>
-            <li class="nav-item px-3 pe-lg-0">
-              <a class="nav-link p-0 position-relative" href="#Contact">Contact</a>
-            </li>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Works">Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Clients">Clients</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Team">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- end navbar -->
-    <!-- start header -->
-    <header class="Home" id="Home">
-      <div
-        class="content-header d-flex flex-column justify-content-center align-items-center vh-100 text-center"
-      >
-        <h5 class="text-white fw-bolder mt-5">Hello</h5>
-        <h1 class="text-white position-relative mb-5 ">I Am </h1>
 
-        <ul class="d-flex justify-content-between">
-          <li class="mx-2 rounded-circle bg-black bg-opacity-50 p-2">
-            <a href=""><i class="fa-brands fa-facebook-f text-white"></i></a>
-          </li>
-          <li class="mx-2 rounded-circle bg-black bg-opacity-50 p-2">
-            <a href=""><i class="fa-brands fa-twitter text-white"></i></a>
-          </li>
-          <li class="mx-2 rounded-circle bg-black bg-opacity-50 p-2">
-            <a href=""><i class="fa-brands fa-linkedin text-white"></i></a>
-          </li>
-          <li class="mx-2 rounded-circle bg-black bg-opacity-50 p-2">
-            <a href=""><i class="fa-brands fa-behance text-white"></i></a>
-          </li>
-          <li class="mx-2 rounded-circle bg-black bg-opacity-50 p-2">
-            <a href=""><i class="fa-brands fa-youtube text-white"></i></a>
-          </li>
-        </ul>
+    <!-- ===== HERO ===== -->
+    <header class="Home" id="Home">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-10 mx-auto text-center hero-content">
+            <span class="hero-greeting">Available for freelance work</span>
+            <h1 class="hero-name">
+              I am <br>
+              <span class="typed-text"></span>
+            </h1>
+            <p class="hero-sub mx-auto">A passionate UI/UX Designer and Web Developer crafting beautiful, functional digital experiences that people love.</p>
+            <div class="hero-btns justify-content-center">
+              <a href="#" class="btn-primary-custom">Download C.V</a>
+              <a href="#Contact" class="btn-outline-custom">Let's Talk</a>
+            </div>
+            <div class="hero-socials justify-content-center">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+              <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <div class="hero-scroll-line"></div>
+        <span>Scroll</span>
       </div>
     </header>
-    <!-- end header -->
+
     <main>
-      <!-- start section one -->
-      <section id="About" class="About py-5">
-        <div class="container py-3">
-          <div class="row d-flex align-items-center gy-5">
-            <div class="col-12 col-lg-5">
-              <div class="image w-100 ms-auto position-relative">
-                <img src="img/hero.jpg" class="d-block w-100 rounded-2" alt="personl-image" />
+
+      <!-- ===== ABOUT ===== -->
+      <section id="About" class="About">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <div class="about-img-wrap">
+                <img src="img/hero.jpg" class="w-100" alt="Jerry Daniels" />
+                <div class="about-badge">
+                  <span class="num">8+</span>
+                  <span class="lbl">Years Experience</span>
+                </div>
               </div>
             </div>
-            <div class="col-12 col-lg-7">
-              <div class="about-me mx-2">
-                <h3 class="fs-1 fw-bolder m-0">About Me.</h3>
-                <span class="fs-6 jop-title text-black-50">UI / UX Designer & Web Developer</span>
-                <p class="text-black-50 fs-6 text-secondary mt-3">
-                  I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                  ever It has survived not only five centuries, but also the leap into electronic but also the
-                  leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                  1960s with the release of Letraset sheets containing
-                </p>
+            <div class="col-lg-7">
+              <div class="section-tag">About Me</div>
+              <h2 class="t-section mb-3">Jerry <span class="accent">Daniels</span></h2>
+              <p class="subtitle" style="color:var(--clr-accent);font-size:0.85rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:1.5rem;">UI / UX Designer &amp; Web Developer</p>
+              <p>I am a creative professional with over 8 years of experience building stunning digital products. I specialize in user-centred design and modern front-end development, turning complex problems into elegant, intuitive solutions.</p>
+              <p>My work spans branding, web design, and full-stack development — always with an eye for detail and a passion for pixel-perfect craft.</p>
+              <div class="skills-wrap">
+                <div class="skill-item">
+                  <div class="skill-header"><span class="skill-name">Web Design</span><span class="skill-pct">95%</span></div>
+                  <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-header"><span class="skill-name">Branding</span><span class="skill-pct">80%</span></div>
+                  <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-header"><span class="skill-name">Development</span><span class="skill-pct">90%</span></div>
+                  <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+                </div>
               </div>
-              <div class="skill mx-2">
-                <ul>
-                  <li class="pb-4">
-                    <ul class="g i-1 d-flex justify-content-between position-relative p-2">
-                      <li class="web text-white">Web Design</li>
-                    </ul>
-                  </li>
-                  <li class="pb-4">
-                    <ul class="g i-2 d-flex justify-content-between position-relative p-2">
-                      <li class="web text-white">Branding</li>
-                    </ul>
-                  </li>
-                  <li class="pb-4">
-                    <ul class="g i-3 d-flex justify-content-between position-relative p-2">
-                      <li class="web text-white">Development</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="btn-section mx-2">
-                <ul>
-                  <div class="btn one text-bg-dark border-black"><a href="#" class="">Download c.v</a></div>
-                  <div class="btn two bg-white text-black border-black">
-                    <a href="#contact" class="">Contact Me</a>
-                  </div>
-                </ul>
+              <div class="about-actions">
+                <a href="#" class="btn-primary-custom">Download C.V</a>
+                <a href="#Contact" class="btn-outline-custom">Contact Me</a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- end section one -->
-      <!-- start section two -->
-      <section id="Services" class="Services bg-body-tertiary py-5">
-        <div class="container py-5">
-          <div
-            class="title-section d-flex flex-column align-items-center justify-content-center text-center mb-5"
-          >
-            <h3 class="mb-2 t-section">Services.</h3>
+
+      <!-- ===== SERVICES ===== -->
+      <section id="Services" class="Services">
+        <div class="container">
+          <div class="row justify-content-center text-center section-header">
+            <div class="col-lg-6">
+              <div class="section-tag" style="justify-content:center;">What I Do</div>
+              <h2 class="t-section">My <span class="accent">Services</span></h2>
+              <div class="divider-line mx-auto mt-3"></div>
+            </div>
           </div>
-          <div class="content-section">
-            <div class="row gx-4">
-              <div class="col-12 col-lg-4">
-                <div class="card text-center py-5 px-2 rounded-2 border-0 mb-4">
-                  <div
-                    class="ic d-flex justify-content-center align-items-center mx-auto rounded-circle bg-light"
-                  >
-                    <i class="fa fa-laptop fa-xl"></i>
-                  </div>
-                  <h6 class="mt-3 fs-5 fw-bold">Web Design</h6>
-                  <p class="text-secondary mx-auto w-75">
-                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy
-                    text ever
-                  </p>
-                </div>
+          <div class="row g-4">
+            <div class="col-sm-6 col-lg-4">
+              <div class="service-card">
+                <div class="service-icon"><i class="fa fa-laptop"></i></div>
+                <h6>Web Design</h6>
+                <p>Crafting beautiful, responsive websites that engage and convert — built with modern standards and best practices.</p>
               </div>
-              <div class="col-12 col-lg-4">
-                <div class="card text-center py-5 px-2 rounded-2 border-0 mb-4">
-                  <div
-                    class="ic d-flex justify-content-center align-items-center mx-auto rounded-circle bg-light"
-                  >
-                    <i class="fa fa-bullhorn fa-xl"></i>
-                  </div>
-                  <h6 class="mt-3 fs-5 fw-bold">Branding</h6>
-                  <p class="text-secondary mx-auto w-75">
-                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy
-                    text ever
-                  </p>
-                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="service-card">
+                <div class="service-icon"><i class="fa fa-bullhorn"></i></div>
+                <h6>Branding</h6>
+                <p>Building strong, memorable brand identities that tell your story and resonate with your audience.</p>
               </div>
-              <div class="col-12 col-lg-4">
-                <div class="card text-center py-5 px-2 rounded-2 border-0 mb-4">
-                  <div
-                    class="ic d-flex justify-content-center align-items-center mx-auto rounded-circle bg-light"
-                  >
-                    <i class="fa fa-umbrella fa-xl"></i>
-                  </div>
-                  <h6 class="mt-3 fs-5 fw-bold">Development</h6>
-                  <p class="text-secondary mx-auto w-75">
-                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy
-                    text ever
-                  </p>
-                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="service-card">
+                <div class="service-icon"><i class="fa fa-code"></i></div>
+                <h6>Development</h6>
+                <p>Translating designs into clean, scalable, performant code across front-end and back-end systems.</p>
               </div>
-              <div class="col-12 col-lg-4">
-                <div class="card text-center py-5 px-2 rounded-2 border-0 mb-4">
-                  <div
-                    class="ic d-flex justify-content-center align-items-center mx-auto rounded-circle bg-light"
-                  >
-                    <i class="fa-regular fa-gem fa-xl"></i>
-                  </div>
-                  <h6 class="mt-3 fs-5 fw-bold">Creative Design</h6>
-                  <p class="text-secondary mx-auto w-75">
-                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy
-                    text ever
-                  </p>
-                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="service-card">
+                <div class="service-icon"><i class="fa-regular fa-gem"></i></div>
+                <h6>Creative Design</h6>
+                <p>Original, eye-catching visual concepts that elevate your brand above the competition.</p>
               </div>
-              <div class="col-12 col-lg-4">
-                <div class="card text-center py-5 px-2 rounded-2 border-0 mb-4">
-                  <div
-                    class="ic d-flex justify-content-center align-items-center mx-auto rounded-circle bg-light"
-                  >
-                    <i class="fa fa-television fa-xl"></i>
-                  </div>
-                  <h6 class="mt-3 fs-5 fw-bold">Fully Responsive</h6>
-                  <p class="text-secondary mx-auto w-75">
-                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy
-                    text ever
-                  </p>
-                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="service-card">
+                <div class="service-icon"><i class="fa fa-mobile-alt"></i></div>
+                <h6>Fully Responsive</h6>
+                <p>Every project is pixel-perfect on all screen sizes — from mobile to ultra-wide desktop.</p>
               </div>
-              <div class="col-12 col-lg-4">
-                <div class="card text-center py-5 px-2 rounded-2 border-0 mb-4">
-                  <div
-                    class="ic d-flex justify-content-center align-items-center mx-auto rounded-circle bg-light"
-                  >
-                    <i class="fa fa-camera fa-xl"></i>
-                  </div>
-                  <h6 class="mt-3 fs-5 fw-bold">Retina Ready</h6>
-                  <p class="text-secondary mx-auto w-75">
-                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy
-                    text ever
-                  </p>
-                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="service-card">
+                <div class="service-icon"><i class="fa fa-camera"></i></div>
+                <h6>Retina Ready</h6>
+                <p>Crystal-clear visuals for every display, using optimised assets and vector-first design.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- end section two -->
-      <!-- start section three -->
-      <section class="portfolio py-5" id="Works">
-        <div class="container py-5">
-          <div
-            class="title-section d-flex flex-column align-items-center justify-content-center text-center mb-5"
-          >
-            <h3 class="mb-2 t-section">Portfolio.</h3>
+
+      <!-- ===== PORTFOLIO ===== -->
+      <section class="portfolio" id="Works">
+        <div class="container">
+          <div class="row justify-content-center text-center section-header">
+            <div class="col-lg-6">
+              <div class="section-tag" style="justify-content:center;">My Work</div>
+              <h2 class="t-section">Selected <span class="accent">Projects</span></h2>
+              <div class="divider-line mx-auto mt-3"></div>
+            </div>
           </div>
-
-          <ul class="nav mb-3 justify-content-center mt-4" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link position-relative fw-bold active text-black p-0 mx-3 pb-2"
-                id="all-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#all"
-                type="button"
-                role="tab"
-                aria-controls="all"
-                aria-selected="true"
-              >
-                All
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link position-relative fw-bold text-black p-0 mx-3 pb-2"
-                id="brand-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#brand"
-                type="button"
-                role="tab"
-                aria-controls="brand"
-                aria-selected="false"
-              >
-                Brand
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link position-relative fw-bold text-black p-0 mx-3 pb-2"
-                id="design-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#design"
-                type="button"
-                role="tab"
-                aria-controls="design"
-                aria-selected="false"
-              >
-                Design
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link position-relative fw-bold text-black p-0 mx-3 pb-2"
-                id="graphic-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#graphic"
-                type="button"
-                role="tab"
-                aria-controls="graphic"
-                aria-selected="false"
-              >
-                Graphic
-              </button>
-            </li>
-          </ul>
-
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
-              <div class="row gy-4 mt-2">
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/1.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/2.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/3.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/4.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/5.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/6.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
+          <div class="portfolio-filter" id="portfolioFilter">
+            <button class="active" data-filter="all">All</button>
+            <button data-filter="brand">Brand</button>
+            <button data-filter="design">Design</button>
+            <button data-filter="graphic">Graphic</button>
+          </div>
+          <div class="row g-4" id="portfolioGrid">
+            <div class="col-sm-6 col-lg-4" data-cat="all design">
+              <div class="portfolio-item">
+                <img src="img/1.jpg" alt="Web Design Project" />
+                <div class="portfolio-overlay">
+                  <span>Web Design</span>
+                  <h5>Project Title</h5>
+                  <div class="portfolio-overlay-btns">
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-link"></i></a>
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-search-plus"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="brand" role="tabpanel" aria-labelledby="brand-tab">
-              <div class="row gy-4 mt-2">
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/4.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/6.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
+            <div class="col-sm-6 col-lg-4" data-cat="all brand">
+              <div class="portfolio-item">
+                <img src="img/2.jpg" alt="Branding Project" />
+                <div class="portfolio-overlay">
+                  <span>Branding</span>
+                  <h5>Brand Identity</h5>
+                  <div class="portfolio-overlay-btns">
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-link"></i></a>
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-search-plus"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
-              <div class="row gy-4 mt-2">
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/2.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/5.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
+            <div class="col-sm-6 col-lg-4" data-cat="all graphic">
+              <div class="portfolio-item">
+                <img src="img/3.jpg" alt="Graphic Design Project" />
+                <div class="portfolio-overlay">
+                  <span>Graphic</span>
+                  <h5>Print Design</h5>
+                  <div class="portfolio-overlay-btns">
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-link"></i></a>
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-search-plus"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="tab-pane fade" id="graphic" role="tabpanel" aria-labelledby="graphic-tab">
-              <div class="row gy-4 mt-2">
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/1.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
+            <div class="col-sm-6 col-lg-4" data-cat="all brand">
+              <div class="portfolio-item">
+                <img src="img/4.jpg" alt="Brand Project" />
+                <div class="portfolio-overlay">
+                  <span>Brand</span>
+                  <h5>Logo Design</h5>
+                  <div class="portfolio-overlay-btns">
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-link"></i></a>
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-search-plus"></i></a>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/3.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4" data-cat="all design">
+              <div class="portfolio-item">
+                <img src="img/5.jpg" alt="Design Project" />
+                <div class="portfolio-overlay">
+                  <span>Design</span>
+                  <h5>UI/UX App</h5>
+                  <div class="portfolio-overlay-btns">
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-link"></i></a>
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-search-plus"></i></a>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                  <div class="image overflow-hidden position-relative">
-                    <img src="img/5.jpg" class="w-100" alt="" />
-                    <h6 class="text-icons text-black z-1 fw-bold position-absolute">WEB DESIGN</h6>
-                    <div class="icons position-absolute d-flex justify-content-center align-items-center">
-                      <span class="icon"
-                        ><a
-                          href="# "
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-chain-broken"></i></a
-                      ></span>
-                      <span class="icon link"
-                        ><a
-                          href="#"
-                          class="icons-link d-flex justify-content-center align-items-center bg-black mx-2 text-center rounded-circle border-2 border border-black"
-                          ><i class="text-white fa fa-search-plus"></i></a
-                      ></span>
-                    </div>
-                    <div
-                      class="layer position-absolute d-flex flex-column justify-content-center align-items-center fs-3 text-white"
-                    >
-                      <p>category</p>
-                      <p>project title</p>
-                    </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4" data-cat="all graphic">
+              <div class="portfolio-item">
+                <img src="img/6.jpg" alt="Graphic Project" />
+                <div class="portfolio-overlay">
+                  <span>Graphic</span>
+                  <h5>Illustration</h5>
+                  <div class="portfolio-overlay-btns">
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-link"></i></a>
+                    <a href="#" class="portfolio-overlay-btn"><i class="fa fa-search-plus"></i></a>
                   </div>
                 </div>
               </div>
@@ -680,355 +269,274 @@
         </div>
       </section>
 
-      <!-- end section three -->
-
-      <!-- start section four -->
-      <section class="indicators bg-body-tertiary py-5">
-        <div class="container p-5">
-          <div
-            class="title-section d-flex flex-column align-items-center justify-content-center text-center mb-5"
-          >
-            <h3 class="mb-2 t-section">Testimonials.</h3>
+      <!-- ===== TESTIMONIALS ===== -->
+      <section class="indicators" id="Clients">
+        <div class="container">
+          <div class="row justify-content-center text-center section-header">
+            <div class="col-lg-6">
+              <div class="section-tag" style="justify-content:center;">Testimonials</div>
+              <h2 class="t-section">Client <span class="accent">Reviews</span></h2>
+              <div class="divider-line mx-auto mt-3"></div>
+            </div>
           </div>
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slid position-relative w-75 mx-auto"
-            data-bs-ride="carousel"
-          >
+          <div id="testimonialCarousel" class="carousel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="slide text-center d-flex flex-column justify-content-center align-items-center">
-                  <div class="image px-5 py-0 my-0 w-25">
-                    <img src="img/1 (1).jpg" class="rounded rounded-circle p-5 W-25" alt="personl-image" />
-                  </div>
-                  <p class="mb-5 text-secondary fs-6">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown
-                    printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                  <h6 class="fs-5">Alex Smith</h6>
-                  <span class="fs-6 mb-4">Envato Customer</span>
+                <div class="testimonial-slide">
+                  <img src="img/1 (1).jpg" class="testimonial-avatar" alt="Alex Smith" />
+                  <p class="testimonial-text">"Working with Jerry was an absolute pleasure. He understood our vision immediately and delivered a website that exceeded all our expectations. Truly a talented professional."</p>
+                  <p class="testimonial-name">Alex Smith</p>
+                  <p class="testimonial-role">CEO, Envato</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="slide text-center d-flex flex-column justify-content-center align-items-center">
-                  <div class="image px-5 py-0 my-0 w-25">
-                    <img src="img/1 (1).jpg" class="rounded rounded-circle p-5 W-25" alt="personl-image" />
-                  </div>
-                  <p class="mb-5 text-secondary fs-6">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown
-                    printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                  <h6 class="fs-5">Alex Smith</h6>
-                  <span class="fs-6 mb-4">Envato Customer</span>
+                <div class="testimonial-slide">
+                  <img src="img/1 (1).jpg" class="testimonial-avatar" alt="Sarah Johnson" />
+                  <p class="testimonial-text">"Exceptional work from start to finish. The attention to detail and quality of the final product was outstanding. I will definitely be working with Jerry again."</p>
+                  <p class="testimonial-name">Sarah Johnson</p>
+                  <p class="testimonial-role">Marketing Director, TechCorp</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="slide text-center d-flex flex-column justify-content-center align-items-center">
-                  <div class="image px-5 py-0 my-0 w-25">
-                    <img src="img/1 (1).jpg" class="rounded rounded-circle p-5 W-25" alt="personl-image" />
-                  </div>
-                  <p class="mb-5 text-secondary fs-6">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown
-                    printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                  <h6 class="fs-5">Alex Smith</h6>
-                  <span class="fs-6 mb-4">Envato Customer</span>
+                <div class="testimonial-slide">
+                  <img src="img/1 (1).jpg" class="testimonial-avatar" alt="Mike Davis" />
+                  <p class="testimonial-text">"Jerry transformed our brand identity completely. The designs are stunning and our customers love the new look. Highly recommended for any design project."</p>
+                  <p class="testimonial-name">Mike Davis</p>
+                  <p class="testimonial-role">Founder, StartupHub</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-indicators position-static">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="rounded-circle text-bg-secondary active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                class="rounded-circle text-bg-secondary"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                class="rounded-circle text-bg-secondary"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
           </div>
         </div>
       </section>
-      <!-- end section four-->
-      <!-- start section five-->
-      <section class="calc-section py-5 bg-white text-black">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-12 col-xl-3 mb-5 d-flex flex-column align-items-center text-center">
-              <div class="icon">
-                <i class="fa fa-users fa-2x"></i>
-              </div>
-              <div class="text-section">
-                <h3 class="pt-2 fs-2 mb-3 fw-bolder">850</h3>
-                <p class="text-secondary fs-6 fw-semibold">Happy Customers</p>
+
+      <!-- ===== STATS ===== -->
+      <section class="calc-section">
+        <div class="container">
+          <div class="row text-center g-0">
+            <div class="col-6 col-lg-3">
+              <div class="stat-item">
+                <span class="stat-icon"><i class="fa fa-users"></i></span>
+                <div class="stat-num">850</div>
+                <div class="stat-label">Happy Clients</div>
               </div>
             </div>
-            <div class="col-12 col-xl-3 mb-5 d-flex flex-column align-items-center text-center">
-              <div class="icon">
-                <i class="fa fa-thumbs-up fa-2x"></i>
-              </div>
-              <div class="text-section">
-                <h3 class="pt-2 fs-2 mb-3 fw-bolder">230</h3>
-                <p class="text-secondary fs-6 fw-semibold">Complete Projects</p>
+            <div class="col-6 col-lg-3">
+              <div class="stat-item">
+                <span class="stat-icon"><i class="fa fa-thumbs-up"></i></span>
+                <div class="stat-num">230</div>
+                <div class="stat-label">Projects Done</div>
               </div>
             </div>
-            <div class="col-12 col-xl-3 mb-5 d-flex flex-column align-items-center text-center">
-              <div class="icon">
-                <i class="fa fa-bullhorn fa-2x"></i>
-              </div>
-              <div class="text-section">
-                <h3 class="pt-2 fs-2 mb-3 fw-bolder">9450</h3>
-                <p class="text-secondary fs-6 fw-semibold">Lines Of Code</p>
+            <div class="col-6 col-lg-3">
+              <div class="stat-item">
+                <span class="stat-icon"><i class="fa fa-code"></i></span>
+                <div class="stat-num">9450</div>
+                <div class="stat-label">Lines of Code</div>
               </div>
             </div>
-            <div class="col-12 col-xl-3 mb-5 d-flex flex-column align-items-center text-center">
-              <div class="icon">
-                <i class="fa fa-cloud-download fa-2x"></i>
-              </div>
-              <div class="text-section">
-                <h3 class="pt-2 fs-2 mb-3 fw-bolder">780</h3>
-                <p class="text-secondary fs-6 fw-semibold">Files Downloaded</p>
+            <div class="col-6 col-lg-3">
+              <div class="stat-item">
+                <span class="stat-icon"><i class="fa fa-cloud-download"></i></span>
+                <div class="stat-num">780</div>
+                <div class="stat-label">Downloads</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- end section five-->
-      <!-- start section six-->
-      <section class="blog py-5 bg-body-tertiary" id="Team">
+      <!-- ===== TEAM ===== -->
+      <section class="blog" id="Team">
         <div class="container">
-          <div class="title-section text-center position-relative mb-5">
-            <h3 class="t-section py-5">Our Team.</h3>
+          <div class="row justify-content-center text-center section-header">
+            <div class="col-lg-6">
+              <div class="section-tag" style="justify-content:center;">The Team</div>
+              <h2 class="t-section">Meet the <span class="accent">Crew</span></h2>
+              <div class="divider-line mx-auto mt-3"></div>
+            </div>
           </div>
-          <div class="content-section py-5">
-            <div class="row g-4">
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="card text-center">
-                  <div class="image position-relative overflow-hidden">
-                    <img src="img/1 (2).jpg" class="card-img-top" alt="post-1" />
-                    <ul class="d-flex justify-content-center align-items-center position-absolute">
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-pinterest"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-linkedin"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="card-body position-relative pt-4 text-white">
-                    <h4 class="card-title position-relative fs-3 fw-bold">John Doe</h4>
-                    <h5 class="card-title position-relative fs-4 fw-bold text-uppercase px-1">
-                      Front-End Developer
-                    </h5>
+          <div class="row g-4 justify-content-center">
+            <div class="col-sm-6 col-lg-4">
+              <div class="team-card">
+                <div class="team-card-image">
+                  <img src="img/1 (2).jpg" alt="John Doe" />
+                  <div class="team-card-socials">
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-linkedin-in"></i></a>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="card text-center">
-                  <div
-                    class="image position-relative overflow-hidden d-flex justify-content-center align-items-center text-center"
-                  >
-                    <img src="img/2 (1).jpg" class="card-img-top" alt="post-1" />
-                    <ul class="d-flex justify-content-center align-items-center position-absolute">
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-pinterest"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-linkedin"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="card-body position-relative pt-4 text-white">
-                    <h4 class="card-title position-relative fs-3 fw-bold">Dave Wood</h4>
-                    <h5 class="card-title position-relative fs-4 fw-bold text-uppercase px-2">
-                      Back-End Developer
-                    </h5>
-                  </div>
+                <div class="team-card-body">
+                  <h4>John Doe</h4>
+                  <p>Front-End Developer</p>
                 </div>
               </div>
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="card text-center">
-                  <div class="image position-relative overflow-hidden">
-                    <img src="img/1 (2).jpg" class="card-img-top" alt="post-1" />
-                    <ul class="d-flex justify-content-center align-items-center position-absolute">
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-pinterest"></i
-                        ></a>
-                      </li>
-                      <li class="bg-black mx-2">
-                        <a
-                          href=""
-                          class="rounded-circle d-flex justify-content-center align-items-center text-center rounded-circle d-flex justify-content-center align-items-center text-center"
-                          ><i class="text-white fa-lg fa-brands fa-linkedin"></i
-                        ></a>
-                      </li>
-                    </ul>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="team-card">
+                <div class="team-card-image">
+                  <img src="img/2 (1).jpg" alt="Dave Wood" />
+                  <div class="team-card-socials">
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-linkedin-in"></i></a>
                   </div>
-                  <div class="card-body position-relative pt-4 text-white">
-                    <h4 class="card-title position-relative fs-3 fw-bold">Claire Chedd</h4>
-                    <h5 class="card-title position-relative fs-4 fw-bold text-uppercase px-2">
-                      Back-End Developer
-                    </h5>
+                </div>
+                <div class="team-card-body">
+                  <h4>Dave Wood</h4>
+                  <p>Back-End Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="team-card">
+                <div class="team-card-image">
+                  <img src="img/1 (2).jpg" alt="Claire Chedd" />
+                  <div class="team-card-socials">
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="team-social-link"><i class="fa-brands fa-linkedin-in"></i></a>
                   </div>
+                </div>
+                <div class="team-card-body">
+                  <h4>Claire Chedd</h4>
+                  <p>UI/UX Designer</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- end section six-->
-      <!-- start section seven-->
-      <section class="contact py-5" id="Contact">
-        <div class="container py-5">
-          <h5 class="t-section text-center py-5">Contact Us.</h5>
-          <div class="row g-5 text-center d-flex justify-content-center">
-            <div class="col-md-3">
-              <div class="content-section">
-                <span
-                  class="icon rounded-circle bg-body-secondary d-flex justify-content-center align-items-center my-4 mx-auto"
-                  ><i class="fa-2x fa fa-location-arrow"></i
-                ></span>
-                <h6 class="fs-6 fw-semibold">Address</h6>
-                <p class="text-secondary">6834 Hollywood Blvd - Los Angeles CA</p>
+
+      <!-- ===== CONTACT ===== -->
+      <section class="contact" id="Contact">
+        <div class="container">
+          <div class="row justify-content-center text-center section-header">
+            <div class="col-lg-6">
+              <div class="section-tag" style="justify-content:center;">Get In Touch</div>
+              <h2 class="t-section">Contact <span class="accent">Me</span></h2>
+              <div class="divider-line mx-auto mt-3"></div>
+            </div>
+          </div>
+          <div class="row g-4 align-items-start">
+            <div class="col-lg-5">
+              <div class="mb-4">
+                <p style="color:var(--clr-muted);line-height:1.8;">Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you as soon as possible.</p>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa fa-location-arrow"></i></div>
+                <div class="contact-info-text">
+                  <h6>Address</h6>
+                  <p>6834 Hollywood Blvd, Los Angeles CA</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa fa-envelope"></i></div>
+                <div class="contact-info-text">
+                  <h6>Email</h6>
+                  <p>support@jerrydaniels.com</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa fa-phone"></i></div>
+                <div class="contact-info-text">
+                  <h6>Phone</h6>
+                  <p>+20 010 2517 8918</p>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="content-section">
-                <span
-                  class="icon rounded-circle bg-body-secondary d-flex justify-content-center align-items-center my-4 mx-auto"
-                  ><i class="fa-2x fa fa-envelope"></i
-                ></span>
-                <h6 class="fs-6 fw-semibold">Email</h6>
-                <p class="text-secondary">Support@website.com</p>
-              </div>
+            <div class="col-lg-7">
+              <form class="contact-form" action="">
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Your Name" required />
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="email" class="form-control" placeholder="Your Email" required />
+                  </div>
+                  <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Subject" />
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn-submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
             </div>
-            <div class="col-md-2">
-              <div class="content-section">
-                <span
-                  class="icon rounded-circle bg-body-secondary d-flex justify-content-center align-items-center my-4 mx-auto"
-                  ><i class="fa-2x fa fa-phone"></i
-                ></span>
-                <h6 class="fs-6 fw-semibold">Phone</h6>
-                <p class="text-secondary">+20 010 2517 8918</p>
-              </div>
-            </div>
-            <form action="">
-              <div class="row gy-3 gx-4 d-flex justify-content-center py-4">
-                <div class="col-12 col-xl-4">
-                  <input type="text" class="form-control p-3" placeholder=" Name" />
-                </div>
-                <div class="col-12 col-xl-4">
-                  <input type="email  " class="form-control p-3" placeholder="Email" />
-                </div>
-                <div class="col-12 col-xl-8">
-                  <textarea
-                    name="message"
-                    id="message"
-                    placeholder="message"
-                    class="form-control p-2"
-                    rows="8"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="row d-flex justify-content-center">
-                <div class="col-12 col-xl-8">
-                  <button class="btn px-5 py-2 bg-black text-white d-flex justify-content-end">submit</button>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
       </section>
-      <!-- end section seven-->
+
     </main>
-    <!-- start footer -->
-    <footer class="p-4 bg-dark py-5 text-secondary">
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
       <div class="container">
-        <div class="copy col-sm-12 text-center">
-          <p class="mb-0">Copy Right 2018 © By Daniels All Rights Reserved</p>
+        <div class="text-center">
+          <p>© 2024 <span style="color:var(--clr-accent)">Jerry Daniels</span>. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
-    <!-- end footer -->
-    <!-- bootstrap.js -->
+
     <script src="js/all.min.js"></script>
-    <!-- bootstrap.js -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Portfolio filter
+      document.querySelectorAll('#portfolioFilter button').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('#portfolioFilter button').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          const filter = this.dataset.filter;
+          document.querySelectorAll('#portfolioGrid [data-cat]').forEach(item => {
+            item.style.display = item.dataset.cat.includes(filter) || filter === 'all' ? '' : 'none';
+          });
+        });
+      });
+
+      // Navbar scroll effect
+      const navbar = document.getElementById('mainNav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add('navbar-scrolled');
+        } else {
+          navbar.classList.remove('navbar-scrolled');
+        }
+      });
+      // Initial check
+      if (window.scrollY > 50) navbar.classList.add('navbar-scrolled');
+
+      // Typed hero text
+      const words = ['Larry Daniels', 'UI Designer', 'Developer'];
+      let wi = 0, ci = 0, deleting = false;
+      const el = document.querySelector('.typed-text');
+      function type() {
+        const word = words[wi];
+        el.textContent = deleting ? word.substring(0, ci--) : word.substring(0, ci++);
+        if (!deleting && ci > word.length) { deleting = true; setTimeout(type, 1500); return; }
+        if (deleting && ci < 0) { deleting = false; wi = (wi + 1) % words.length; ci = 0; }
+        setTimeout(type, deleting ? 60 : 100);
+      }
+      type();
+
+      // Close mobile menu on link click
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          const navMenu = document.getElementById('navMenu');
+          if (navMenu.classList.contains('show')) {
+            const bsCollapse = new bootstrap.Collapse(navMenu, { toggle: false });
+            bsCollapse.hide();
+          }
+        });
+      });
+    </script>
   </body>
 </html>
