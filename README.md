@@ -2,7 +2,6 @@
 
 A premium, modern portfolio website built for **Jerry Daniels**, a professional UI/UX Designer and Web Developer. This project features a sleek, minimal aesthetic with glassmorphism elements, smooth transitions, and a fully responsive layout.
 
-![Portfolio Preview](img/hero.jpg)
 
 ## ✨ Features
 
